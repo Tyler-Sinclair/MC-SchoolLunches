@@ -1,0 +1,35 @@
+nav {
+    background: lightgrey;
+    text-align: center;
+    text-emphasis-color: Black;
+    text-decoration: none;
+    width: 100%;
+}
+Nav p {
+font-size: 150;
+text-emphasis-color: Black;
+text-decoration: none;
+text-decoration-line: none;
+word-spacing: 1px;
+}
+nav :hover {
+color: grey;
+}
+header {
+    background: grey;
+    text-decoration-line: none;
+    width: 100%;
+}
+header h1 {
+    font-size: 250%;
+}
+footer {
+    background-color: grey;
+    text-align: center;
+    font-size: 120%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    border-top: 1px;
+}
