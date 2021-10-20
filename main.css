@@ -10,10 +10,9 @@ font-size: 150;
 text-emphasis-color: Black;
 text-decoration: none;
 text-decoration-line: none;
-word-spacing: 1px;
 }
 nav :hover {
-color: grey;
+color: red;
 }
 header {
     background: grey;
@@ -32,4 +31,7 @@ footer {
     position: fixed;
     width: 100%;
     border-top: 1px;
+}
+header p {
+    text-align: center;
 }
