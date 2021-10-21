@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;900&display=swap');/* Font I'm using for h2, h3, and p elements */
 nav {
-    background: lightgrey;
-    text-align: center;
-    text-emphasis-color: Black;
-    text-decoration: none;
-    width: 100%;
+background: lightgrey;
+text-align: center;
+text-emphasis-color: Black;
+text-decoration: none;
+width: 100%;
 }
 Nav p {
 font-size: 150;
@@ -15,23 +16,23 @@ nav :hover {
 color: red;
 }
 header {
-    background: grey;
-    text-decoration-line: none;
-    width: 100%;
+background: grey;
+text-decoration-line: none;
+width: 100%;
 }
 header h1 {
-    font-size: 250%;
+font-size: 250%;
 }
 footer {
-    background-color: grey;
-    text-align: center;
-    font-size: 120%;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    border-top: 1px;
+background-color: grey;
+text-align: center;
+font-size: 120%;
+bottom: 0;
+left: 0;
+position: fixed;
+width: 100%;
+border-top: 1px;
 }
 header p {
-    text-align: center;
+text-align: center;
 }
