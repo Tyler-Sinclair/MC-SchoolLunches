@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;900&display=swap');/* Font I'm using for h2, h3, and p elements */
+body {
+font-family: Quicksand, sans-serif;
+background-image: linear-gradient(right, grey, white);
+}
+.grad {
+    background-image: linear-gradient(grey, white, grey);
+}
 nav {
+display: flex 1 1 100px;
 background: lightgrey;
 text-align: center;
 text-emphasis-color: Black;
 text-decoration: none;
 width: 100%;
+font-size: 125%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-Nav p {
-font-size: 150;
-text-emphasis-color: Black;
+nav p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-decoration: none;
-text-decoration-line: none;
 }
 nav :hover {
 color: red;
@@ -22,6 +30,8 @@ width: 100%;
 }
 header h1 {
 font-size: 250%;
+font-family: Black-900;
+font-family: " Shadows Into Light ", cursive;
 }
 footer {
 background-color: grey;
@@ -35,4 +45,5 @@ border-top: 1px;
 }
 header p {
 text-align: center;
+font-family: Extra-Light-200;
 }
